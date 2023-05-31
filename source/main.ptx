@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <macros>
+      <xi:include href="./macros.ptx" />  
+    </macros>
+    <latex-image-preamble>
+    </latex-image-preamble>
+  </docinfo>
+
+  <book xml:id="book-calculus1">
+    <title>Course Notes for PreCalculus Modules</title>
+
+    <frontmatter xml:id="frontmatter">
+      <titlepage>
+        <author>
+          <personname>Remkes Kooistra</personname>
+          <department>Department of Mathematics</department>
+          <institution>The King's University, Edmonton</institution>
+        </author>
+        <date>
+          <today />
+        </date>
+      </titlepage>
+
+      <colophon>
+
+        <copyright>
+          <year>2012<ndash />2023</year>
+          <holder>Remkes Kooistra</holder>
+          <shortlicense> 
+            This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+          </shortlicense>
+        </copyright>
+      </colophon>
+    </frontmatter>
+
+    <xi:include href="./algebra1.ptx" />
+    <xi:include href="./algebra2.ptx" />
+    <xi:include href="./inequalities1.ptx" />
+    <xi:include href="./inequalities2.ptx" />
+    <xi:include href="./fractions1.ptx" />
+    <xi:include href="./fractions2.ptx" />
+    <xi:include href="./cartesian-geometry.ptx" />
+    <xi:include href="./real-numbers.ptx" />
+    <!--
+    <xi:include href="./functions1.ptx" />
+    <xi:include href="./functions2.ptx" />
+    <xi:include href="./polynomials1.ptx" />
+    <xi:include href="./polynomials2.ptx" />
+    <xi:include href="./trigonometry.ptx" />
+    <xi:include href="./exponents1.ptx" />
+    <xi:include href="./exponents2.ptx" />
+    <xi:include href="./logarithms.ptx" />
+    <xi:include href="./statistics.ptx" />
+    <xi:include href="./visualizations.ptx" />
+    -->
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <colophon>
+        <p> This book was authored in <pretext />. </p>
+      </colophon>
+
+    </backmatter>
+
+  </book>
+</pretext>
