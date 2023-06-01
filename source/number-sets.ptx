@@ -1,6 +1,6 @@
 <section xml:id="section-number-sets">
   <title>Number Sets</title>
-  <subsection xml:id="subsection--sets">
+  <subsection xml:id="subsection-sets">
     <title>Sets of  Numbers</title>
     <p>
       A simple but useful idea in mathematics is the idea of a
@@ -13,7 +13,7 @@
       A set can be described directly using braces and explicitly
       listing its elements. The set
       <me>
-        A = \left\{ 4, 8, 22 \right} 
+        A = \left\{ 4, 8, 22 \right\} 
       </me>
       has three elements: the numbers <m>4</m>, <m>8</m> and
       <m>22</m>. Here <sq><m>A</m></sq> is the name of the set and the
@@ -37,7 +37,7 @@
       matter. The following two expressions define exactly the same
       set.
       <me>
-        \left{ 6, -13, \frac{5}{7}, \pi \right\} = \left\{ \pi, -13, 6
+        \left\{ 6, -13, \frac{5}{7}, \pi \right\} = \left\{ \pi, -13, 6
         \frac{5}{7} \right\} 
       </me>
       Second, repetition of elements isn't part fo the definition of a
@@ -73,10 +73,10 @@
       <me>
         E = \{2, 4, 6, 8, 10, 12, \ldots \}
       </me>
-      The symbol <sq><m>\lots</m></sq> means that the pattern
+      The symbol <sq><m>\ldots</m></sq> means that the pattern
       continues without end. The even numbers never stop, but this set
-      contains all of them. So, $105538 \in E$ and $194942734 \in E$,
-      because both are even numbers. 
+      contains all of them. So, <m>105538 \in E</m> and <m>194942734
+      \in E</m>, because both are even numbers. 
     </p>
     <p>
       The last impotant idea to mention for sets is the idea of a
@@ -98,14 +98,14 @@
       </me>
       I would also write this explicitly with words.
       <me>
-        \text{The set of multiple of 10\} \subset \text{The set of
+        \text{The set of multiples of 10 } \subset \text{ The set of
         positive even numbers} 
       </me>
       If I want to say that something is not a subset, I can write a
       cross through the symbol, much as I did for the <sq>is an
       element of </sq> symbol. 
       <me>
-        {1,7,44} \notsubset \{2,4,7,15,22,28,34,44\}
+        {1,7,44} \not\subset \{2,4,7,15,22,28,34,44\}
       </me>
       This is not a subset since 1 is an element of the first but not
       of the section. The first set includes something apart from the
@@ -130,7 +130,7 @@
       <li>
         The integers:
         <me>
-          \ZZN = \{\ldots -3,-2,-1,01,2,3,\ldots\}
+          \ZZ = \{\ldots -3,-2,-1,01,2,3,\ldots\}
         </me>
       </li>
       <li>
@@ -197,8 +197,45 @@
     <p>
       If I want to visualize the intervals on the number line, I use
       dots for included endpoints, and open circles for excluded
-      endpoints. (ADD FIGURE)
+      endpoints, as in <xref ref="figure-open-and-closed-intervals" /> 
     </p>
+    <figure xml:id="figure-open-and-closed-intervals">
+      <description>Open and Closed Intervals</description>
+      <caption>Open and Closed Intervals</caption>
+      <image xml:id="image-open-and-closed-intervals" width="90%">
+        <asymptote>
+          size(12cm);
+
+          dot("$0$",(0,0),N);
+          draw((-3,0)--(3,0));
+          draw((-2,0)--(-2,-0.3)--(1,-0.3)--(1,0));
+          dot("$-2$",(-2,0),N,FillDraw(white));
+          dot("$1$",(1,0),N,FillDraw(white));
+          label("The open interval $(-2,1)$",(-0.5,-0.3),S);
+
+          dot("$0$",(0,-1),N);
+          draw((-3,-1)--(3,-1));
+          draw((-2,-1)--(-2,-1.3)--(1,-1.3)--(1,-1));
+          dot("$-2$",(-2,-1),N,FillDraw(black));
+          dot("$1$",(1,-1),N,FillDraw(black));
+          label("The closed interval $[-2,1]$",(-0.5,-1.3),S);
+
+          dot("$0$",(0,-2),N);
+          draw((-3,-2)--(3,-2));
+          draw((-2,-2)--(-2,-2.3)--(1,-2.3)--(1,-2));
+          dot("$-2$",(-2,-2),N,FillDraw(white));
+          dot("$1$",(1,-2),N,FillDraw(black));
+          label("The half-open interval $(-2,1]$",(-0.5,-2.3),S);
+
+          dot("$0$",(0,-3),N);
+          draw((-3,-3)--(3,-3));
+          draw((-2,-3)--(-2,-3.3)--(1,-3.3)--(1,-3));
+          dot("$-2$",(-2,-3),N,FillDraw(black));
+          dot("$1$",(1,-3),N,FillDraw(white));
+          label("The half-open interval $[-2,1)$",(-0.5,-3.3),S);
+        </asymptote>
+      </image>
+    </figure>
     <p>
       The intervals I've discussed so far were all bounded: numbers
       between some fixed lower endpoint and some other fixed upper

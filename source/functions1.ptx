@@ -2,6 +2,8 @@
   xml:id="chapter-functions1">
   <title>Functions Part 1 Name</title>
   <xi:include href="functions-concept.ptx" />
+  <!--
   <xi:include href="functions-models.ptx" />
   <xi:include href="functions1-activity.ptx" />
+  -->
 </chapter>

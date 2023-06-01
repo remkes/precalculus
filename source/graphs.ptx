@@ -36,7 +36,7 @@
       coorinates: <m>(9,3)</m>. All values of the function are pairs
       like this: an input and an ouput. All of these pairs can be
       thought of as coordinates. These coordinate produce a shape in
-      the plane, which we call the <em>graph</em> of the function.
+      the plane, which we call the <term>graph</term> of the function.
       <xref ref="figure-square-root-graph" /> shows the graph of the
       square root function with several points labeled. 
       <figure xml:id="figure-square-root-graph">

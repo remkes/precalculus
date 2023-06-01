@@ -45,8 +45,8 @@
     <xi:include href="./fractions2.ptx" />
     <xi:include href="./cartesian-geometry.ptx" />
     <xi:include href="./real-numbers.ptx" />
-    <!--
     <xi:include href="./functions1.ptx" />
+    <!--
     <xi:include href="./functions2.ptx" />
     <xi:include href="./polynomials1.ptx" />
     <xi:include href="./polynomials2.ptx" />

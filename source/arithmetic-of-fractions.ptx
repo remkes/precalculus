@@ -14,8 +14,8 @@
       <me>
         \frac{3}{7} \text{ or } \frac{x^2-1}{9 - \sqrt{x}} 
       </me>
-      The top piece of a fraction is called the <em>numerator</em>
-      and the bottom piece is called the <em>denomninator</em>.
+      The top piece of a fraction is called the <term>numerator</term>
+      and the bottom piece is called the <term>denomninator</term>.
     </p>
     <p>
       In mathematics, we use the fraction notation <m>\frac{a}{b}</m>
@@ -51,10 +51,10 @@
     <title>Some Notations and Comments</title>
     <p>
       A fraction where the numerator is smaller than the denominator
-      (<m>\frac{4}{11}</m>) is called a <em>proper fraction</em>.
+      (<m>\frac{4}{11}</m>) is called a <term>proper fraction</term>.
       A fraction where the numerator is larger thatn the denominator
-      (<m>\frac{13}{11}</m>) is called a <em>improper
-      fraction</em>/. 
+      (<m>\frac{13}{11}</m>) is called a <term>improper
+      fraction</term>/. 
       In much of elementary arithmetic, students are encouraged to
       write improper fractions as mixed fractions. Here is an example. 
       <me>
@@ -232,7 +232,7 @@
     </p>
     <p>
       For those of you who like a more complete and formal answer,
-      <m>72</m> is the <em>least common multiple</em> of <m>24</m>
+      <m>72</m> is the <term>least common multiple</term> of <m>24</m>
       and <m>36</m>. I'm not going to review GCDs or LCM in these
       notes, but for those of you who remember that material, the LCM
       of the denominators is always the most efficient choice for a
@@ -292,7 +292,7 @@
       Using this, I can say that diving by <m>5</m> is the same thing
       as multiplying by <m>\frac{1}{5}</m>. This gives me a rule for
       fractions: to divide by a fraction is to multiply by its
-      reciprocal. (A <em>reciprocal</em> of a fraction is the
+      reciprocal. (A <term>reciprocal</term> of a fraction is the
       fraction with denominator and numerator interchanged.) 
     </p>
     <p>
@@ -314,7 +314,7 @@
         \frac{20}{21} 
       </me>
       This expression, with a fraction inside another fraction, is
-      called a <em>nested fraction</em>. The rules for division
+      called a <term>nested fraction</term>. The rules for division
       can also be thought of as rules for dealing with nested
       fractions. Here is the rule in general form.
       <me>

@@ -161,9 +161,9 @@
       line. On the line from <xref ref="section-plane" />, we could
       choose the point <m>(2,3)</m> and <m>(6,5)</m>. We calculate the
       difference in the <m>y</m> coordinates and call this the
-      <em>rise</em>: it measures how far up the line goes between the
+      <term>rise</term>: it measures how far up the line goes between the
       two points. Then we calculate the difference in the <m>x</m>
-      coordinates and call this the <em>run</em>: it measures how far
+      coordinates and call this the <term>run</term>: it measures how far
       we move horizontally between the two points. The slope is then
       the rise divided by the run. 
       <me>

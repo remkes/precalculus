@@ -36,7 +36,7 @@
       </li>
       <li>
         Finally, functions encode relationships and dependencies.  For
-        a function <m>f<m> from a set <m>A</m> to a set <m>B</m>, I
+        a function <m>f</m> from a set <m>A</m> to a set <m>B</m>, I
         can thing of the elements of <m>B</m> depending on the
         elements of <m>A</m>. This idea is reflected in the phrase
         <dq>is a function of</dq>. If I say that population growth is a
@@ -106,7 +106,7 @@
       <p>
         Consider the function
         <me>
-          f: \NN rightarrow \NN
+          f: \NN \rightarrow \NN
         </me>
         defined by the formula
         <me>
@@ -123,7 +123,7 @@
       <p>
         Consider the function
         <me>
-          f: \ZZ \rightarow \NN
+          f: \ZZ \rightarrow \NN
         </me>
         defined by the formula
         <me>
@@ -219,7 +219,7 @@
       If I look back over the examples, I can notice that not all the
       numbers in the codomains are actually realized as outputs of the
       function. This is an important distinctions: the codomains is
-      a set of  <em>possible</m> outputs, but not the set of
+      a set of  <em>possible</em> outputs, but not the set of
       <em>actual</em> outputs. The set of actual outputs is called the
       <term>range</term> of the function. It always a subset of the
       codomain, but it might be a smaller subset. Let me go back
@@ -229,7 +229,7 @@
       <p>
         Consider the function
         <me>
-          f: \NN rightarrow \NN
+          f: \NN \rightarrow \NN
         </me>
         defined by the formula
         <me>
@@ -246,7 +246,7 @@
       <p>
         Consider the function
         <me>
-          f: \ZZ \rightarow \NN
+          f: \ZZ \rightarrow \NN
         </me>
         defined by the formula
         <me>
@@ -254,8 +254,8 @@
         </me>
         The outputs of this function are numbers which are one larger
         than the square numbers. That list is <m>\{1, 5, 10, 17, 26,
-        37, 50, \ldots \}. This is the range of the function, which is
-        missing most of <m>\NN</m>, the codomain. 
+        37, 50, \ldots \}</m>. This is the range of the function,
+        which is missing most of <m>\NN</m>, the codomain.
       </p>
     </example>
     <example>
@@ -287,7 +287,7 @@
         The range here is the square roots of the natural numbers. I
         could write this as a list: <m>\{1, \sqrt{2}, \sqrt{3}, 2,
         \sqrt{5}, \sqrt{6}, \sqrt{7}, \sqrt{8}, 3, \sqrt{10} \ldots
-        \}<m>. This is a comparatively small subset of the codomain
+        \}</m>. This is a comparatively small subset of the codomain
         <m>\RR</m>, since most real numbers are not in this list. 
       </p>
     </example>
@@ -377,7 +377,7 @@
   <subsection xml:id="subsection-function-graphs">
     <title>Graphs of Functions</title>
     <p>
-      In addition to the three way to understand functions from <xref
+      In addition to the three ways to understand functions from <xref
       ref="subsection-what-is-a-function" />, I can also understand
       a function by drawing a picture of it. This picture is called
       the <term>graph</term> of the function.  Visualizing the action
@@ -387,6 +387,5 @@
     <p>
       ADD DETAILS
     </p>
-  </subsection>
   </subsection>
 </section>

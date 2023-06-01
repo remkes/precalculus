@@ -199,11 +199,11 @@
     </p>
     <figure xml:id="figure-diagonal-of-the-square">
       <caption>The Diagnoal of the Square</caption>
-      <image xml:id="figure11" width="80%">
+      <image xml:id="figure11" width="50%">
         <asymptote>
           size(8cm,8cm,IgnoreAspect);
 
-          draw((0,0)--(2,0)--(2,2)--(0,2));
+          draw((0,0)--(2,0)--(2,2)--(0,2)--(0,0));
 
           label("$1$",(0,1),W);
           label("$1$",(1,0),S);
@@ -263,16 +263,17 @@
     </p>
     <figure xml:id="figure-number-line-complete">
       <caption>The Completed Number Line</caption>
-      <image xml:id="figure13" width="80%">
+      <image xml:id="figure13" width="90%">
         <asymptote>
           size(12cm,0,IgnoreAspect);
 
-          draw((-3,0)--(3,0));
+          draw((-3,0)--(4,0));
 
           dot("$0$",(0,0),N);
           dot("$1$",(1,0),N);
           dot("$2$",(2,0),N);
           dot("$3$",(3,0),N);
+          dot("$4$",(4,0),N);
           dot("$-1$",(-1,0),N);
           dot("$-2$",(-2,0),N);
           dot("$-3$",(-3,0),N);
@@ -283,10 +284,10 @@
           dot("$\frac{101}{35}$",(2.89,0),S);
           dot("$\frac{-1}{7}$",(-0.14,0),S);
 
-          dot("$\sqrt{2}$",(0,1.41),N);
-          dot("$\pi$",(0,3.14),N);
-          dot("$-\sqrt{3}$", (0,-1.44),N);
-          dot("$\frac{-\pi^2}{11}$", (-0.9,0),N);
+          dot("$\sqrt{2}$",(1.41,0),N);
+          dot("$\pi$",(3.14,0),N);
+          dot("$-\sqrt{3}$", (-1.44,0),N);
+          dot("$\frac{-\pi^2}{11}$", (-0.9,0),S);
         </asymptote>
       </image>
     </figure>
@@ -299,13 +300,13 @@
       These reprentations are always approximate. 
       <md>
         <mrow>
-          \sqrt{2} \doteq = 1.414213562373095 \ldots
+          \sqrt{2} \doteq 1.414213562373095 \ldots
         </mrow>
         <mrow>
-          \sqrt{7} \doteq = 2.645751311064591 \ldots
+          \sqrt{7} \doteq 2.645751311064591 \ldots
         </mrow>
         <mrow>
-          \pi \doteq = 3.141592653589793 \ldots
+          \pi \doteq 3.141592653589793 \ldots
         </mrow>
       </md>
       These decimals expansions are non-repeating. The is no pattern
@@ -321,6 +322,7 @@
     </p>
   </subsection>
   <subsection xml:id="subsection-the-continuum">
+    <title>The Continuum</title>
     <p>
       The number line is also sometimes called the
       <term>continuum</term>. A very important property of the number
